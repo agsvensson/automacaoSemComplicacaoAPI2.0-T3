@@ -19,5 +19,13 @@
 git clone https://github.com/agsvensson/automacaoSemComplicacaoAPI2.0-T3.git
 ```
 
-#### Para executar os testes, incluir tag no arquivo RunnerTest:
-- @login para executar feature de Login.
+#### Para executar os testes é necessário baixar e inicializar a api Plataforma Filmes:
+```
+git clone https://github.com/adamvinicius/PlataformaFilmes.git
+```
+
+#### Após inicializar a api, para executar os testes, incluir tag no arquivo RunnerTest:
+- @login para executar feature de Login;
+- @categoria para executar feature de Categoria;
+- @crud para executar o CRUD da feature de filmes;
+- deixar sem tag para rodar todos.
